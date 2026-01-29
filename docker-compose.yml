@@ -1,8 +1,3 @@
-version: "3.8"
-
-# Sử dụng pre-built images từ Docker Hub (MẶC ĐỊNH)
-# Không cần build, chỉ cần: docker-compose up -d
-
 services:
   php:
     image: ${DOCKER_USERNAME:-baocloud}/lemp-php:8.2
